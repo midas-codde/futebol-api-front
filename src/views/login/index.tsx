@@ -1,9 +1,6 @@
-// import { useState } from 'react'
-import { useState } from 'react'
-import './App.css'
-import FootballApiService from './services/football-api-service'
+import "./style.css"
 
-const App = () => {
+const Login = () => {
   return (
     <>
       <div className='main-login'>
@@ -31,4 +28,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Login
